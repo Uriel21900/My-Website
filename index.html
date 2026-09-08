@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI/ML Engineer portfolio showcasing machine learning projects, research, and experience." />
+  <title>Jose Rodriguez Diaz — AI/ML &amp; Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Go to top">JR<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-outline nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section id="hero" aria-label="Introduction">
+    <canvas id="aurora-canvas" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Hello, I am</p>
+      <h1 class="hero-name reveal">Jose Rodriguez Diaz<span class="cursor-blink">_</span></h1>
+      <p class="hero-title reveal">
+        <span class="title-prefix">I build </span>
+        <span id="typewriter" class="typewriter-text" aria-live="polite"></span>
+      </p>
+      <p class="hero-sub reveal">Turning data into intelligence, one model at a time.</p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary" id="hero-projects-btn">View Projects</a>
+        <a href="https://github.com/Uriel21900?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" id="hero-github-btn">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <section id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 / About</span>
+        <h2 id="about-heading">Who Am I</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="about-lead">I am a passionate <strong>AI/ML Engineer</strong> who loves building intelligent systems that solve real-world problems.</p>
+          <p>With deep expertise in machine learning, deep learning, and data engineering, I specialize in taking ideas from research to production. Whether it is training large language models, building recommendation systems, or creating computer vision pipelines, I thrive at the intersection of math and engineering.</p>
+          <p>When I am not training models, you will find me contributing to open-source, reading the latest ML papers, or experimenting with new architectures.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-number">12+</span><span class="stat-label">Projects Built</span></div>
+            <div class="stat"><span class="stat-number">3+</span><span class="stat-label">Years Experience</span></div>
+            <div class="stat"><span class="stat-number">5+</span><span class="stat-label">Open Source Repos</span></div>
+          </div>
+        </div>
+        <div class="about-avatar-wrap reveal">
+          <div class="about-avatar" aria-label="Profile photo of Jose Rodriguez Diaz">
+            <img src="assets/profile.jpg" alt="Jose Rodriguez Diaz" class="avatar-photo" />
+            <div class="avatar-glow" aria-hidden="true"></div>
+          </div>
+          <div class="avatar-badge" aria-hidden="true">
+            <span class="badge-dot"></span>Available for work
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" aria-labelledby="skills-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 / Skills</span>
+        <h2 id="skills-heading">Tech Stack</h2>
+      </div>
+      <div class="skills-categories">
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Languages</h3>
+          <div class="skill-grid">
+            <div class="skill-item"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+            <div class="skill-item"><i class="devicon-r-plain colored"></i><span>R</span></div>
+            <div class="skill-item"><i class="devicon-azuresqldatabase-plain colored"></i><span>SQL</span></div>
+            <div class="skill-item"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+            <div class="skill-item"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">ML / AI</h3>
+          <div class="skill-grid">
+            <div class="skill-item"><i class="devicon-pytorch-plain colored"></i><span>PyTorch</span></div>
+            <div class="skill-item"><i class="devicon-tensorflow-original colored"></i><span>TensorFlow</span></div>
+            <div class="skill-item"><i class="devicon-keras-plain colored"></i><span>Keras</span></div>
+            <div class="skill-item"><i class="devicon-opencv-plain colored"></i><span>OpenCV</span></div>
+            <div class="skill-item"><i class="devicon-numpy-plain colored"></i><span>NumPy</span></div>
+            <div class="skill-item"><i class="devicon-pandas-plain colored"></i><span>Pandas</span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Infrastructure</h3>
+          <div class="skill-grid">
+            <div class="skill-item"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
+            <div class="skill-item"><i class="devicon-linux-plain"></i><span>Linux</span></div>
+            <div class="skill-item"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+            <div class="skill-item"><i class="devicon-jupyter-plain colored"></i><span>Jupyter</span></div>
+            <div class="skill-item"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></div>
+            <div class="skill-item"><i class="devicon-googlecloud-plain colored"></i><span>GCP</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" aria-labelledby="projects-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 / Projects</span>
+        <h2 id="projects-heading">What I Have Built</h2>
+        <p class="section-sub">A selection of AI/ML projects spanning NLP, computer vision, and data science.</p>
+      </div>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project 1: Fragrance Finder -->
+        <article class="project-card reveal" data-color="amber">
+          <div class="project-img" style="background: linear-gradient(135deg, #451a03 0%, #78350f 100%);">
+            <div class="project-img-icon">🌸</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Data</span></div>
+            <h3 class="project-title">Fragrance Finder</h3>
+            <p class="project-desc">Track real-time prices for 150,000+ fragrances. Discover signature scents, explore sustainable perfume ingredients, and never overpay with live market data.</p>
+            <div class="project-links">
+              <a href="https://fragrance-finder-alpha.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link" id="proj1-demo">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+              <a href="https://github.com/Uriel21900?tab=repositories" target="_blank" rel="noopener noreferrer" class="project-link" id="proj1-github">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 2: FormIQ -->
+        <article class="project-card reveal" data-color="violet">
+          <div class="project-img" style="background: linear-gradient(135deg, #3b0764 0%, #1e1b4b 100%);">
+            <div class="project-img-icon">💪</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Next.js</span><span class="tag">AI</span><span class="tag">Fitness Tech</span></div>
+            <h3 class="project-title">FormIQ</h3>
+            <p class="project-desc">AI-powered kinetic fitness dashboard with biomechanical telemetry, optical form analysis, equipment selection, and live workout session tracking.</p>
+            <div class="project-links">
+              <a href="https://formiq-nine.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link" id="proj2-demo">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+              <a href="https://github.com/Uriel21900?tab=repositories" target="_blank" rel="noopener noreferrer" class="project-link" id="proj2-github">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 3: NutriScore -->
+        <article class="project-card reveal" data-color="emerald">
+          <div class="project-img" style="background: linear-gradient(135deg, #052e16 0%, #064e3b 100%);">
+            <div class="project-img-icon">🥗</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Nutrition AI</span></div>
+            <h3 class="project-title">NutriScore API</h3>
+            <p class="project-desc">Smart nutrition analyzer that scans food products and uncovers their true health value. Provides macro balance breakdown, health scores, and actionable dietary insights.</p>
+            <div class="project-links">
+              <a href="https://nutriscore-api-qruy.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-link" id="proj3-demo">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+              <a href="https://github.com/Uriel21900?tab=repositories" target="_blank" rel="noopener noreferrer" class="project-link" id="proj3-github">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 4: NexusCRM -->
+        <article class="project-card reveal" data-color="cyan">
+          <div class="project-img" style="background: linear-gradient(135deg, #0c4a6e 0%, #0a1628 100%);">
+            <div class="project-img-icon">🏢</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">CRM</span></div>
+            <h3 class="project-title">NexusCRM</h3>
+            <p class="project-desc">Enterprise cloud CRM dashboard built with Streamlit. Visualizes customer pipelines, sales analytics, and team performance with an interactive real-time interface.</p>
+            <div class="project-links">
+              <a href="https://crm-dashboard-app.streamlit.app/" target="_blank" rel="noopener noreferrer" class="project-link" id="proj4-demo">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+              <a href="https://github.com/Uriel21900?tab=repositories" target="_blank" rel="noopener noreferrer" class="project-link" id="proj4-github">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 5: ScrapeFlow -->
+        <article class="project-card reveal" data-color="rose">
+          <div class="project-img" style="background: linear-gradient(135deg, #4c0519 0%, #1a0a1e 100%);">
+            <div class="project-img-icon">🕸️</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Web Scraping</span></div>
+            <h3 class="project-title">ScrapeFlow</h3>
+            <p class="project-desc">Cloud-based web scraping platform with a clean Streamlit interface. Extracts structured data from any website with configurable pipelines and exportable results.</p>
+            <div class="project-links">
+              <a href="https://app-web-scraper.streamlit.app/" target="_blank" rel="noopener noreferrer" class="project-link" id="proj5-demo">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+              <a href="https://github.com/Uriel21900?tab=repositories" target="_blank" rel="noopener noreferrer" class="project-link" id="proj5-github">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 6: DocuMind AI -->
+        <article class="project-card reveal" data-color="teal">
+          <div class="project-img" style="background: linear-gradient(135deg, #134e4a 0%, #042f2e 100%);">
+            <div class="project-img-icon">🤖</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="tag">LLM</span><span class="tag">Streamlit</span><span class="tag">NLP</span></div>
+            <h3 class="project-title">DocuMind AI</h3>
+            <p class="project-desc">AI-powered document summarization tool. Paste or upload any text and get instant, structured summaries powered by large language models — built for real workflow efficiency.</p>
+            <div class="project-links">
+              <a href="https://upwork-summarize-ai.streamlit.app/" target="_blank" rel="noopener noreferrer" class="project-link" id="proj6-demo">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+              <a href="https://github.com/Uriel21900?tab=repositories" target="_blank" rel="noopener noreferrer" class="project-link" id="proj6-github">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" aria-labelledby="experience-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04 / Experience</span>
+        <h2 id="experience-heading">Work History</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div><h3 class="timeline-role">Senior ML Engineer</h3><p class="timeline-company">Tech Company Inc.</p></div>
+              <span class="timeline-date">2023 – Present</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Designed and deployed production ML pipelines serving 10M+ daily predictions</li>
+              <li>Led a team of 4 engineers to build a real-time recommendation engine, increasing CTR by 23%</li>
+              <li>Reduced model inference latency by 40% through quantization and ONNX optimization</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div><h3 class="timeline-role">ML Engineer</h3><p class="timeline-company">AI Startup Ltd.</p></div>
+              <span class="timeline-date">2021 – 2023</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built NLP pipeline for document classification, processing 500k docs/day</li>
+              <li>Fine-tuned BERT variants for domain-specific sentiment analysis tasks</li>
+              <li>Implemented MLflow tracking and model registry for the entire engineering org</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div><h3 class="timeline-role">Data Science Intern</h3><p class="timeline-company">Research Lab</p></div>
+              <span class="timeline-date">Summer 2020</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Developed anomaly detection model for IoT sensor data using Isolation Forest</li>
+              <li>Published findings in internal research report; led to production deployment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05 / Contact</span>
+        <h2 id="contact-heading">Let us Work Together</h2>
+        <p class="section-sub">I am open to new opportunities, collaborations, and interesting conversations.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-links reveal">
+          <a href="mailto:Joseurodriguez@gmail.com" class="contact-card" id="contact-email">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div><p class="contact-card-title">Email</p><p class="contact-card-value">Joseurodriguez@gmail.com</p></div>
+          </a>
+          <a href="https://github.com/Uriel21900?tab=repositories" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-github">
+            <div class="contact-icon">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <div><p class="contact-card-title">GitHub</p><p class="contact-card-value">github.com/Uriel21900</p></div>
+          </a>
+          <a href="https://www.linkedin.com/in/jose-rodriguez-diaz-3225a011b/" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-linkedin">
+            <div class="contact-icon">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div><p class="contact-card-title">LinkedIn</p><p class="contact-card-value">jose-rodriguez-diaz</p></div>
+          </a>
+        </div>
+        <div class="contact-cta reveal">
+          <div class="cta-card">
+            <h3>Open to Opportunities</h3>
+            <p>Whether it is a full-time role, freelance project, or just a conversation about AI, my inbox is always open.</p>
+            <a href="mailto:Joseurodriguez@gmail.com" class="btn btn-primary" id="cta-email-btn">Say Hello</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">2026 Jose Rodriguez Diaz. Built with passion and a lot of coffee.</p>
+      <a href="#hero" class="back-to-top" aria-label="Back to top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
